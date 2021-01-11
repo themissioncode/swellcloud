@@ -5,7 +5,7 @@
       let surfheight, surfperiod;
 
       fetch(
-        "https://data.channelcoast.org/observations/waves/latest?key=6cefd36d8e12a4dead4cf06d4dbd09c0"
+        "https://data.channelcoast.org/observations/waves/latest?key='request key here"
       )
         .then(function (resp) {
           return resp.text();
